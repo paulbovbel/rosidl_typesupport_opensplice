@@ -34,7 +34,7 @@ extern "C"
 {
 #endif
 
-ROSIDL_TYPESUPPORT_OPENSPLICE_C_PUBLIC_@(spec.base_type.pkg_name)
+ROSIDL_TYPESUPPORT_OPENSPLICE_C_PUBLIC_@(pkg_upper)
 const rosidl_message_type_support_t *
   ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_opensplice_c, @(spec.base_type.pkg_name), @(subfolder), @(spec.base_type.type))();
 
